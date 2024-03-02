@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            border: solid;
+            width: 100px;
+            height: 100px;
+        }
+
+        /*        class selector*/
+        p.inline_block {
+            border:solid;
+            display:inline-block;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .inline{
+            border: solid;
+            display:inline;
+            width: 100px;
+            height: 100px;
+            
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <ul>block
+        <li>width width of the page</li>
+        <li>height 0</li>
+        <li>can change width and height</li>
+        <li>cannot put 2 block elements in a same line</li>
+    </ul>
+    <div></div>
+    <div></div>
+
+    <ul>inline-block
+        <li>w:0</li>
+        <li>h:0</li>
+        <li></li>
+        <li>can put 2 inline-blocks in the same line </li>
+    </ul>
+    <p class="inline_block"></p>
+    <p class="inline_block"></p>
+    
+    <ul>inline
+        <li>w:0 by default depends on its content</li>
+        <li>h:have</li>
+        <li>can put inline elements in the same line</li>
+    </ul>
+    <p class="inline">text</p>&nbsp;
+    <p class="inline">have</p>
+
+</body></html>
